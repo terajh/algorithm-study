@@ -42,7 +42,7 @@ int solution(string begin, string target, vector<string> words) {
 }
 ```
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/70f127a0-c588-440d-9a41-1088214a6803/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/70f127a0-c588-440d-9a41-1088214a6803/Untitled.png)
+![https://s3.us-west-2.amazonaws.com/secure.notion-static.com/70f127a0-c588-440d-9a41-1088214a6803/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210430%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210430T083839Z&X-Amz-Expires=86400&X-Amz-Signature=2acf4bd26e51e8c6737323260a6bd177335eed42ac5c2996d80603c864a09caa&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/70f127a0-c588-440d-9a41-1088214a6803/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210430%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210430T083839Z&X-Amz-Expires=86400&X-Amz-Signature=2acf4bd26e51e8c6737323260a6bd177335eed42ac5c2996d80603c864a09caa&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
 oneChange 함수에서 string 두 개에 대해 하나의 문자만 바꿧는지 체크하는 것만 짯으면
 
