@@ -34,7 +34,7 @@ int solution(int n, vector<vector<int>> computers) {
 }
 ```
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fa1ddf60-dfe4-4f21-a72a-1f2428c7eb88/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fa1ddf60-dfe4-4f21-a72a-1f2428c7eb88/Untitled.png)
+![https://s3.us-west-2.amazonaws.com/secure.notion-static.com/fa1ddf60-dfe4-4f21-a72a-1f2428c7eb88/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210430%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210430T080030Z&X-Amz-Expires=86400&X-Amz-Signature=6e2789d731a36116cc80e7029ecbf8242ae2dfec8e2091b93d4c037c62b5d763&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/fa1ddf60-dfe4-4f21-a72a-1f2428c7eb88/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210430%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210430T080030Z&X-Amz-Expires=86400&X-Amz-Signature=6e2789d731a36116cc80e7029ecbf8242ae2dfec8e2091b93d4c037c62b5d763&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
 ---
 
@@ -69,7 +69,7 @@ int solution(int n, vector<vector<int>> computers) {
 }
 ```
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2128f2bd-3f82-4fb8-8db7-8560dccd4c25/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2128f2bd-3f82-4fb8-8db7-8560dccd4c25/Untitled.png)
+![https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2128f2bd-3f82-4fb8-8db7-8560dccd4c25/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210430%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210430T080002Z&X-Amz-Expires=86400&X-Amz-Signature=eefac87257bd70a92c2fa83b88a261a57abc4e1057c01a8075a193ec3bfb6a0d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2128f2bd-3f82-4fb8-8db7-8560dccd4c25/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210430%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210430T080002Z&X-Amz-Expires=86400&X-Amz-Signature=eefac87257bd70a92c2fa83b88a261a57abc4e1057c01a8075a193ec3bfb6a0d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
 둘다 dfs 로 풀었는데 약간은 첫 번째 코드가 빠르다.
 
