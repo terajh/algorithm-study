@@ -17,7 +17,7 @@ int n, k;
 int _max = 0;
 
 int counts()
-{
+{ 
     int _counts = 0;
     for (int k = 0; k < n; k++)
     {
