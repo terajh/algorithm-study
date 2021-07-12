@@ -39,6 +39,7 @@ int main()
             g = arr[i];
         else
             g = gcd(g, arr[i]);
+
         up_memo[i] = g; // i 까지의 up gcd
     }
 
@@ -48,6 +49,7 @@ int main()
             g = arr[i];
         else
             g = gcd(g, arr[i]);
+            
         down_memo[i] = g; // i 까지의 down gcd
     }
 
