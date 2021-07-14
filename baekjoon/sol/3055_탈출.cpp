@@ -32,6 +32,7 @@ int main()
     int sx, sy;
     vector<pair<int, int>> w;
 
+    // 입력받기
     for (int i = 0; i < r; i++)
     {
         for (int j = 0; j < c; j++)
@@ -60,6 +61,7 @@ int main()
         }
     }
 
+    // q 에 water 집어 넣기
     for (int k = 0; k < w.size(); k++)
     {
         node n;
@@ -69,6 +71,7 @@ int main()
         q.push(n);
     }
 
+    // 물 차는 지역 체크
     while (!q.empty())
     {
         node t = q.front();
@@ -83,6 +86,7 @@ int main()
 
             if (check[tx][ty] != -1)
             {
+                // 처음 물이 흐르는 경우
                 if (check[tx][ty] == 0 && arr[tx][ty] != '*')
                 {
                     node temp;
@@ -92,6 +96,7 @@ int main()
                     q.push(temp);
                     check[tx][ty] = t.time + 1;
                 }
+                // 그 다음 물이 흐르는 경우
                 else if (t.time + 1 < check[tx][ty])
                 {
                     check[tx][ty] = t.time + 1;
