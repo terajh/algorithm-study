@@ -1,3 +1,7 @@
+/* 
+    위상정렬 문제
+    정렬을 위한 배열하다 두고 풀면 된다.
+*/
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <cstdio>
