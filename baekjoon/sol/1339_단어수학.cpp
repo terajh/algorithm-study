@@ -35,7 +35,6 @@ void input()
 int _max = 0;
 void dfs(int pos)
 {
-
     if (pos == (int)alpha.size())
     {
         int sum = 0;
@@ -57,8 +56,7 @@ void dfs(int pos)
     for (int i = 9; i >= 0; i--)
     {
         // 1. 해당 숫자가 쓰이고 있는지 확인
-        if (check[i])
-            continue;
+        if (check[i]) continue;
         check[i] = 1;
         m[alpha[pos]] = i;
         dfs(pos + 1);

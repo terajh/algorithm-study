@@ -29,7 +29,6 @@ int isok(LL z, LL d)
 }
 int main()
 {
-
     cin >> x >> y;
 
     LL z = (100 * y) / x;

@@ -14,8 +14,7 @@ typedef long long LL;
 const LL INF = 1000000000;
 
 LL dp[101][101];
-LL getCounts(int a, int b)
-{
+LL getCounts(int a, int b){
     if (a == 0 || b == 0)
         return 1;
     if (dp[a][b] != 0)
@@ -25,8 +24,8 @@ LL getCounts(int a, int b)
         dp[a][b] = INF;
     return dp[a][b];
 }
-int main()
-{
+
+int main(){
     int n, m;
     LL k;
     cin >> n >> m >> k;
@@ -61,4 +60,5 @@ int main()
         }
         cout << answer;
     }
+    
 }

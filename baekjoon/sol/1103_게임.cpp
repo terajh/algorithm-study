@@ -43,7 +43,8 @@ int dfs(int x, int y, int n, int m)
         return -1;
     }
 
-    int &ret = check[x][y];
+    int &ret = check[x][y]; 
+    // 이렇게 레퍼런스 선언하면 ret 값 바뀔 시 배열의 값도 바뀐다.
     if (ret != -1)
         return ret;
 
