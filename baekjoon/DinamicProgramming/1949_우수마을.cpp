@@ -28,6 +28,7 @@ void dfs(int x, vector<vector<int>> &v) {
     }
     dp[x][0] += arr[x];
     return;
+    
 }
 int main() {
     int n;
