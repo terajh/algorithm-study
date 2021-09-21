@@ -52,4 +52,5 @@ int main() {
 
 	if (bm[noise.size() - 1] & (64 + 32)) printf("SUBMARINE");
 	else printf("NOISE");
+    return 0;
 }
