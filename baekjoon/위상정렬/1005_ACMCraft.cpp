@@ -15,6 +15,7 @@ int sum[1001];
 int main() {
 	int tc, n, k, a, b;
 	int target;
+	vector<vector<int>> v;
 	scanf("%d", &tc);
 	for (int t = 0; t< tc; t++) {
 		
