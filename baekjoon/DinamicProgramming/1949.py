@@ -1,4 +1,6 @@
 from collections import deque
+import sys
+sys.setrecursionlimit(10**6)
 
 check = [0] * 10001
 dp = [[0,0] for _ in range(10001)]
