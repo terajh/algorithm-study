@@ -6,6 +6,8 @@
         "vector": "cpp",
         "xstring": "cpp",
         "xstddef": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "xutility": "cpp",
+        "iostream": "cpp"
     }
 }
